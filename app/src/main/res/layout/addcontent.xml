@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/addcontentll">
+
+    <ImageView
+        android:id="@+id/iv_addimg"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/vv_addvideo"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_addtext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="请输入你想要写的事情"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_addtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_addimg"
+            android:text="添加图片"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="后退" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
